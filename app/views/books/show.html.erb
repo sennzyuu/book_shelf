@@ -1,0 +1,10 @@
+<div class="col-md-10 offset-md-1 mt-5">
+  <h2><%= @book.title %></h2>
+  <ul>
+    <li><b><%= t ".price" %>: </b><%= t(".price_yen", price: (number_with_delimiter @book.price)) %></li>
+    <li><b><%= t ".publish_date" %>: </b><%= @book.publish_date %></li>
+  </ul>
+  <hr>
+  <h4><%= t ".description" %></h4>
+  <%= simple_format @book.description %>
+</div>
