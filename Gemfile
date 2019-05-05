@@ -41,6 +41,9 @@ gem 'jquery-rails'
 gem 'mini_magick'
 gem 'devise'
 gem 'kaminari'
+gem 'ransack'
+gem 'omniauth'
+
 
 
 group :development, :test do
